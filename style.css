@@ -117,3 +117,58 @@ textarea::placeholder {
 .visible {
   display: none;
 }
+
+footer {
+  text-align: center;
+  padding: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .box {
+    width: 680px;
+  }
+
+  .copy {
+    margin-left: 100px;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .munneco {
+    display: none;
+  }
+
+  .box {
+    width: 327px;
+    height: 400px;
+    margin-left: -15px;
+    align-items: start;
+  }
+
+  .resultado {
+    width: 270px;
+    height: 400px;
+  }
+
+  .text {
+    width: 327px;
+  }
+
+  .buttons {
+    flex-direction: column;
+  }
+
+  .copy {
+    width: 250px;
+    margin-left: 10px;
+    text-align: center;
+  }
+}

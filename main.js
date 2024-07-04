@@ -38,7 +38,7 @@ desencriptar.addEventListener('click', (e) => {
   texto = texto.replace(/ufat/gm, 'u');
 
   respuesta.innerHTML = texto;
-  visible.style.display = 'block';
+  visible.style.display = 'flex';
   contenido.remove();
 });
 
