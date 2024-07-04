@@ -59,7 +59,18 @@ body {
   font-size: 32px;
   font-weight: 400;
   outline: none;
-  line-height: 24px;
+  line-height: 35px;
+}
+
+.resultado {
+  font-size: 32px;
+  height: 400px;
+  font-weight: 400;
+  line-height: 35px;
+  text-align: start;
+  border: none;
+  outline: none;
+  overflow: hidden;
 }
 
 textarea::placeholder {
@@ -91,6 +102,7 @@ textarea::placeholder {
   font-weight: 400;
   line-height: 19.36px;
   text-align: center;
+  cursor: pointer;
 }
 
 .enc {
@@ -100,4 +112,8 @@ textarea::placeholder {
 
 .des {
   border: 1px solid #0a3871;
+}
+
+.visible {
+  display: none;
 }
